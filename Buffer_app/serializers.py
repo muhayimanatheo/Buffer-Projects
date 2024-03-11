@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from.models import *
-class PublicationsSerializer(serializers.ModelSerializer):
+class PublicationSerializer(serializers.ModelSerializer):
     class Meta:
-        models = Publications
+        models = Publication
         fields = '__all__'
